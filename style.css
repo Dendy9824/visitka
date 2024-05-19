@@ -28,3 +28,36 @@ nav a{
  nav a:hover{
      color: #7C005A;
  }
+
+ .about{
+    width: 100vw;
+    height: 30vh;
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+ }
+
+ .avatar{
+     width: 30vh;
+     min-width: 150px;
+ }
+
+.aboutPic{
+    margin-left: 0px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.icons{
+    width: 100px;
+}
+
+.tech{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
